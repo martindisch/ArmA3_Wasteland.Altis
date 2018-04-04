@@ -8,22 +8,22 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=440;
+		nextID=441;
 	};
 	class MarkerIDProvider
 	{
-		nextID=190;
+		nextID=191;
 	};
 	class LayerIndexProvider
 	{
-		nextID=4;
+		nextID=6;
 	};
 	class Camera
 	{
-		pos[]={14517.74,28.344734,5794.0269};
-		dir[]={-0.029113516,-0.33855194,0.94050032};
-		up[]={-0.01047504,0.94094759,0.33839113};
-		aside[]={0.99952447,4.7344656e-008,0.030940793};
+		pos[]={14625.819,19.942265,16830.01};
+		dir[]={0.19343707,-0.39564356,0.89781481};
+		up[]={0.083333068,0.91839921,0.38678062};
+		aside[]={0.9775787,-6.6676876e-008,-0.21062276};
 	};
 };
 binarizationWanted=0;
@@ -114,7 +114,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Altis v1.4b"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+		briefingName="A3Wasteland Altis v1.4b";
 		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=259;
+		items=260;
 		class Item0
 		{
 			dataType="Group";
@@ -4065,7 +4065,7 @@ class Mission
 			type="Empty";
 			colorName="ColorKhaki";
 			id=286;
-			atlOffset=6.3279724;
+			atlOffset=6.3680115;
 		};
 		class Item129
 		{
@@ -5092,7 +5092,7 @@ class Mission
 			};
 			id=385;
 			type="Land_u_House_Small_02_V1_F";
-			atlOffset=0.019424438;
+			atlOffset=0.029647827;
 		};
 		class Item228
 		{
@@ -5110,7 +5110,7 @@ class Mission
 			};
 			id=386;
 			type="Land_u_House_Small_02_V1_F";
-			atlOffset=0.021469116;
+			atlOffset=0.031692505;
 		};
 		class Item229
 		{
@@ -5636,7 +5636,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=36.060291;
+					angle=36.060287;
 					id=417;
 				};
 				class Item2
@@ -5733,7 +5733,7 @@ class Mission
 					name="Parking6_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59126;
+					angle=215.59125;
 					id=427;
 				};
 				class Item12
@@ -5771,7 +5771,7 @@ class Mission
 					name="Parking8_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=200.78294;
+					angle=200.78293;
 					id=431;
 				};
 				class Item16
@@ -5810,6 +5810,7 @@ class Mission
 					};
 					id=435;
 					type="C_Truck_02_box_F";
+					atlOffset=-0.0035152435;
 				};
 				class Item18
 				{
@@ -5829,6 +5830,7 @@ class Mission
 					};
 					id=436;
 					type="C_Truck_02_box_F";
+					atlOffset=-0.00053501129;
 				};
 				class Item19
 				{
@@ -5848,7 +5850,7 @@ class Mission
 					};
 					id=437;
 					type="C_Truck_02_box_F";
-					atlOffset=-1.9073486e-006;
+					atlOffset=-0.0081043243;
 				};
 				class Item20
 				{
@@ -5868,6 +5870,7 @@ class Mission
 					};
 					id=438;
 					type="C_Truck_02_box_F";
+					atlOffset=-7.6293945e-006;
 				};
 				class Item21
 				{
@@ -5887,10 +5890,11 @@ class Mission
 					};
 					id=439;
 					type="C_Truck_02_box_F";
+					atlOffset=-0.00035238266;
 				};
 			};
 			id=415;
-			atlOffset=-51.881287;
+			atlOffset=-50.248169;
 		};
 		class Item258
 		{
@@ -5898,6 +5902,17 @@ class Mission
 			name="CustomLayer";
 			id=432;
 			atlOffset=185.97;
+		};
+		class Item259
+		{
+			dataType="Marker";
+			position[]={14626.405,18.035,16832.715};
+			name="marker_190";
+			text="GS";
+			type="mil_destroy";
+			colorName="ColorBlue";
+			id=440;
+			atlOffset=1.9073486e-006;
 		};
 	};
 };
