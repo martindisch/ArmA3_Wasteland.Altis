@@ -8,11 +8,11 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=441;
+		nextID=449;
 	};
 	class MarkerIDProvider
 	{
-		nextID=191;
+		nextID=199;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14625.819,19.942265,16830.01};
-		dir[]={0.19343707,-0.39564356,0.89781481};
-		up[]={0.083333068,0.91839921,0.38678062};
-		aside[]={0.9775787,-6.6676876e-008,-0.21062276};
+		pos[]={13756.132,22.489769,18928.297};
+		dir[]={0.613626,-0.11283088,0.78152186};
+		up[]={0.069701917,0.99361002,0.088773273};
+		aside[]={0.78654367,-1.2290548e-007,-0.61756873};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=260;
+		items=268;
 		class Item0
 		{
 			dataType="Group";
@@ -5913,6 +5913,91 @@ class Mission
 			colorName="ColorBlue";
 			id=440;
 			atlOffset=1.9073486e-006;
+		};
+		class Item260
+		{
+			dataType="Marker";
+			position[]={14598.288,23.035,16776.842};
+			name="marker_191";
+			text="Gun";
+			type="mil_destroy";
+			colorName="ColorRed";
+			id=441;
+		};
+		class Item261
+		{
+			dataType="Marker";
+			position[]={14029.556,25.745001,18761.025};
+			name="marker_192";
+			text="Gun";
+			type="mil_destroy";
+			colorName="ColorRed";
+			id=442;
+			atlOffset=0.40842056;
+		};
+		class Item262
+		{
+			dataType="Marker";
+			position[]={14030.567,31.382999,18702.467};
+			name="marker_193";
+			text="GS";
+			type="mil_destroy";
+			colorName="ColorBlue";
+			id=443;
+			atlOffset=3.9220085;
+		};
+		class Item263
+		{
+			dataType="Marker";
+			position[]={16812.277,23.962999,12663.198};
+			name="marker_194";
+			text="GS";
+			type="mil_destroy";
+			colorName="ColorBlue";
+			id=444;
+			atlOffset=-0.0001335144;
+		};
+		class Item264
+		{
+			dataType="Marker";
+			position[]={16784.969,8.4250002,11834.476};
+			name="marker_195";
+			text="VS";
+			type="mil_destroy";
+			colorName="ColorOrange";
+			id=445;
+			atlOffset=0.58155346;
+		};
+		class Item265
+		{
+			dataType="Marker";
+			position[]={3752.6609,19.003,12970.7};
+			name="marker_196";
+			text="GS";
+			type="mil_destroy";
+			colorName="ColorBlue";
+			id=446;
+			atlOffset=0.00028800964;
+		};
+		class Item266
+		{
+			dataType="Marker";
+			position[]={13751.598,20.528,18929.799};
+			name="marker_197";
+			text="VS";
+			type="mil_destroy";
+			colorName="ColorOrange";
+			id=447;
+			atlOffset=-0.00029563904;
+		};
+		class Item267
+		{
+			dataType="Marker";
+			position[]={14603.538,17.91,16813.18};
+			name="marker_198";
+			text="Remove ATM";
+			type="mil_destroy";
+			id=448;
 		};
 	};
 };
