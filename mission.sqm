@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=477;
+		nextID=496;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=50;
+		nextID=52;
 	};
 	class Camera
 	{
-		pos[]={16838.631,27.459198,12646.332};
-		dir[]={0.25139278,-0.96302444,-0.097135372};
-		up[]={0.89828944,0.26945019,-0.34708872};
-		aside[]={-0.36042765,-1.0985823e-006,-0.9328143};
+		pos[]={27086.273,33.431717,23278.047};
+		dir[]={-0.70176274,-0.29985657,0.64636546};
+		up[]={-0.22060643,0.95396131,0.20318945};
+		aside[]={0.67753226,1.2962846e-007,0.73560339};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=278;
+		items=296;
 		class Item0
 		{
 			dataType="Group";
@@ -6259,6 +6259,312 @@ class Mission
 			type="Empty";
 			colorName="ColorBlack";
 			id=476;
+		};
+		class Item278
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4291,294.38855,20695.5};
+				angles[]={0,4.5519862,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=477;
+			type="Land_Atm_01_F";
+		};
+		class Item279
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3740,16.082602,17656.5};
+				angles[]={0,1.0901251,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=479;
+			type="Land_Atm_01_F";
+		};
+		class Item280
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8626.5,183.07571,18265};
+				angles[]={0,4.2599831,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=480;
+			type="Land_Atm_01_F";
+		};
+		class Item281
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10243.5,136.7446,19168.5};
+				angles[]={0,3.4680603,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=481;
+			type="Land_Atm_01_F";
+		};
+		class Item282
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14131.5,29.151945,18702.5};
+				angles[]={0,3.8688612,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=482;
+			type="Land_Atm_01_F";
+		};
+		class Item283
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14616.5,50.50098,20810.5};
+				angles[]={0,4.1160455,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=483;
+			type="Land_Atm_01_F";
+		};
+		class Item284
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3925,36.555302,13854};
+				angles[]={0,4.2242861,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=484;
+			type="Land_Atm_01_F";
+		};
+		class Item285
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3702.5,13.499902,13207.5};
+				angles[]={0,2.2060857,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=485;
+			type="Land_Atm_01_F";
+		};
+		class Item286
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8884.5,31.243248,12036.5};
+				angles[]={0,4.8442855,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=486;
+			type="Land_Atm_01_F";
+		};
+		class Item287
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11212.5,180.37059,8623.5};
+				angles[]={0,2.2127764,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=487;
+			type="Land_Atm_01_F";
+		};
+		class Item288
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12589,17.404915,14374.5};
+				angles[]={0,5.9097795,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=488;
+			type="Land_Atm_01_F";
+		};
+		class Item289
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20475.5,39.417561,8886};
+				angles[]={0,1.1286371,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=489;
+			type="Land_Atm_01_F";
+		};
+		class Item290
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20303.5,52.150658,11698};
+				angles[]={0,0.6601662,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=490;
+			type="Land_Atm_01_F";
+		};
+		class Item291
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14901.5,10.224585,11061};
+				angles[]={0,5.4689593,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=491;
+			type="Land_Atm_01_F";
+		};
+		class Item292
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16703,12.475653,12511};
+				angles[]={0,0.9541328,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=492;
+			type="Land_Atm_01_F";
+		};
+		class Item293
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16983.5,17.751911,12906.5};
+				angles[]={0,2.1045225,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=493;
+			type="Land_Atm_01_F";
+		};
+		class Item294
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={20936.5,40.419735,16846};
+				angles[]={0,2.2956333,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=494;
+			type="Land_Atm_01_F";
+		};
+		class Item295
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={27073,23.602018,23289.5};
+				angles[]={0,5.4994526,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] call A3W_fnc_setupMissionATM";
+			};
+			id=495;
+			type="Land_Atm_01_F";
 		};
 	};
 };
