@@ -1,26 +1,8 @@
-# A3Wasteland Altis
+# Will of Fire A3Wasteland Altis
 
 A3Wasteland is a survival-like combat sandbox, which incorporates elements of team deathmatch and sector control in one big fun-to-play package. Similar to DayZ, the objectives are to scavenge weapons and vehicles, team up with fellow players, and engage in combat to obtain control of the landscape. Best experienced with 50 or more players. 
 
-The source code is based on [GoT Wasteland](https://github.com/JoSchaap/GoT_Wasteland_V2.Stratis), which is based on [404 Wasteland](https://github.com/domuk/Arma3-404Wasteland-Stratis), which is based on [Sa-Matra's Wasteland](http://forums.bistudio.com/showthread.php?142427), which is ultimately based on [Tonic's Wasteland](http://forums.bistudio.com/showthread.php?140070).
-
-The mission has come a long way since 404 Wasteland. A large portion of the code has been rewritten, and it contains many new features like territory capture, player saving, vehicle saving, vehicle stores, new secondary missions, and more.
-
-For questions and support, please visit our [forums](http://forums.a3wasteland.com/).
-
----
-
-#### Team A3W developers
-
-* AgentRev
-* [GoT] JoSchaap
-* MercyfulFate
-* [KoS] His_Shadow
-* [KoS] Bewilderbeest
-* Torndeco
-* [404] Del1te
-
-A list of other contributors can be found in the "Credits" section from the in-game map menu, or near the bottom of `briefing.sqf`
+Will of Fire ([Hi no Ishi](http://naruto.wikia.com/wiki/Will_of_Fire) -> HNI) A3Wasteland is a modification of A3Wasteland. The main difference is the placement of stores and territories, which should make for more interesting gameplay. The basic layout is based on EEM Wasteland, which is sadly no longer available. Besides this, many other small things have been changed, such as the reward amount for missions, payout for holding territories and much more. The source code is based on vanilla [A3Wasteland](https://github.com/A3Wasteland/ArmA3_Wasteland.Altis), which is based on [GoT Wasteland](https://github.com/JoSchaap/GoT_Wasteland_V2.Stratis), which is based on [404 Wasteland](https://github.com/domuk/Arma3-404Wasteland-Stratis), which is based on [Sa-Matra's Wasteland](http://forums.bistudio.com/showthread.php?142427), which is ultimately based on [Tonic's Wasteland](http://forums.bistudio.com/showthread.php?140070).
 
 ---
 
