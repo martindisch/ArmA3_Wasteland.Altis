@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=449;
+		nextID=455;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=14;
 	};
 	class Camera
 	{
-		pos[]={13756.132,22.489769,18928.297};
-		dir[]={0.613626,-0.11283088,0.78152186};
-		up[]={0.069701917,0.99361002,0.088773273};
-		aside[]={0.78654367,-1.2290548e-007,-0.61756873};
+		pos[]={16792.926,33.46973,11784.769};
+		dir[]={-0.09307497,-0.50286502,0.8593449};
+		up[]={-0.054148369,0.86436403,0.4999426};
+		aside[]={0.99418986,8.7771696e-008,0.10767989};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=268;
+		items=271;
 		class Item0
 		{
 			dataType="Group";
@@ -5733,7 +5733,7 @@ class Mission
 					name="Parking6_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59125;
+					angle=215.59119;
 					id=427;
 				};
 				class Item12
@@ -5960,17 +5960,6 @@ class Mission
 		class Item264
 		{
 			dataType="Marker";
-			position[]={16784.969,8.4250002,11834.476};
-			name="marker_195";
-			text="VS";
-			type="mil_destroy";
-			colorName="ColorOrange";
-			id=445;
-			atlOffset=0.58155346;
-		};
-		class Item265
-		{
-			dataType="Marker";
 			position[]={3752.6609,19.003,12970.7};
 			name="marker_196";
 			text="GS";
@@ -5979,7 +5968,7 @@ class Mission
 			id=446;
 			atlOffset=0.00028800964;
 		};
-		class Item266
+		class Item265
 		{
 			dataType="Marker";
 			position[]={13751.598,20.528,18929.799};
@@ -5990,7 +5979,7 @@ class Mission
 			id=447;
 			atlOffset=-0.00029563904;
 		};
-		class Item267
+		class Item266
 		{
 			dataType="Marker";
 			position[]={14603.538,17.91,16813.18};
@@ -5998,6 +5987,68 @@ class Mission
 			text="Remove ATM";
 			type="mil_destroy";
 			id=448;
+		};
+		class Item267
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16787,8.4364119,11830.55};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore6";
+					};
+					id=450;
+					type="C_man_1_1_F";
+					atlOffset=0.37300014;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=449;
+			atlOffset=0.37300014;
+		};
+		class Item268
+		{
+			dataType="Marker";
+			position[]={16803.5,10,11822};
+			name="VehStore6_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=451;
+			atlOffset=0.96333408;
+		};
+		class Item269
+		{
+			dataType="Marker";
+			position[]={16829.5,11.475,11833};
+			name="VehStore6_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=452;
+			atlOffset=0.00035190582;
+		};
+		class Item270
+		{
+			dataType="Marker";
+			position[]={16635,7.5,12015};
+			name="VehStore6_seaSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=454;
+			atlOffset=11.060016;
 		};
 	};
 };

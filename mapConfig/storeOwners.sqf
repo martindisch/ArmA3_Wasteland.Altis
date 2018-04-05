@@ -26,7 +26,8 @@ storeOwnerConfig = compileFinal str
 	["VehStore2", 6, 45, ["Boats"]],
 	["VehStore3", 4, 250, ["Boats"]],
 	["VehStore4", 5, 155, ["Boats"]],
-	["VehStore5", 0, 190, ["Planes"]]
+	["VehStore5", 0, 190, ["Planes"]],
+	["VehStore6", 3, 140, ["Planes"]]
 ];
 
 // Outfits for store owners
