@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16656.563,31.268879,20536.605};
-		dir[]={0.55619884,-0.37169516,-0.74330568};
-		up[]={0.22269307,0.92835289,-0.29760757};
-		aside[]={-0.80066866,-1.7229468e-008,-0.59912312};
+		pos[]={16923.162,33.476017,12761.5};
+		dir[]={-0.44432202,-0.5056594,0.73956388};
+		up[]={-0.26042548,0.86271536,0.43347242};
+		aside[]={0.85723132,-4.5898196e-007,0.51501226};
 	};
 };
 binarizationWanted=0;
@@ -5556,18 +5556,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16774.918,19.767099,12594.562};
-				angles[]={0,4.7172933,0};
+				position[]={16909,19.786148,12778.5};
+				angles[]={0,5.5188179,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="[this] call A3W_fnc_setupMissionATM";
 			};
 			id=413;
 			type="Land_Atm_02_F";
-			atlOffset=0.066820145;
+			atlOffset=0.25092506;
 		};
 		class Item254
 		{
