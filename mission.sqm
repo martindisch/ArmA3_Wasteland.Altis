@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=6;
+	toggles=134;
 	class ItemIDProvider
 	{
-		nextID=455;
+		nextID=459;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=14;
+		nextID=24;
 	};
 	class Camera
 	{
-		pos[]={16792.926,33.46973,11784.769};
-		dir[]={-0.09307497,-0.50286502,0.8593449};
-		up[]={-0.054148369,0.86436403,0.4999426};
-		aside[]={0.99418986,8.7771696e-008,0.10767989};
+		pos[]={13773.234,31.435642,18945.002};
+		dir[]={-0.69536209,-0.30160433,-0.65233493};
+		up[]={-0.21997516,0.95342362,-0.20636287};
+		aside[]={-0.68419462,8.1269536e-007,0.72932029};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=271;
+		items=273;
 		class Item0
 		{
 			dataType="Group";
@@ -5733,7 +5733,7 @@ class Mission
 					name="Parking6_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=215.59119;
+					angle=215.59111;
 					id=427;
 				};
 				class Item12
@@ -5971,24 +5971,13 @@ class Mission
 		class Item265
 		{
 			dataType="Marker";
-			position[]={13751.598,20.528,18929.799};
-			name="marker_197";
-			text="VS";
-			type="mil_destroy";
-			colorName="ColorOrange";
-			id=447;
-			atlOffset=-0.00029563904;
-		};
-		class Item266
-		{
-			dataType="Marker";
 			position[]={14603.538,17.91,16813.18};
 			name="marker_198";
 			text="Remove ATM";
 			type="mil_destroy";
 			id=448;
 		};
-		class Item267
+		class Item266
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6020,7 +6009,7 @@ class Mission
 			id=449;
 			atlOffset=0.37300014;
 		};
-		class Item268
+		class Item267
 		{
 			dataType="Marker";
 			position[]={16803.5,10,11822};
@@ -6030,7 +6019,7 @@ class Mission
 			id=451;
 			atlOffset=0.96333408;
 		};
-		class Item269
+		class Item268
 		{
 			dataType="Marker";
 			position[]={16829.5,11.475,11833};
@@ -6040,7 +6029,7 @@ class Mission
 			id=452;
 			atlOffset=0.00035190582;
 		};
-		class Item270
+		class Item269
 		{
 			dataType="Marker";
 			position[]={16635,7.5,12015};
@@ -6049,6 +6038,56 @@ class Mission
 			colorName="ColorBlack";
 			id=454;
 			atlOffset=11.060016;
+		};
+		class Item270
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13755,20.461405,18928.051};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore7";
+					};
+					id=456;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=455;
+		};
+		class Item271
+		{
+			dataType="Marker";
+			position[]={13772.5,22,18938.5};
+			name="VehStore7_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=457;
+			atlOffset=1.7239952;
+		};
+		class Item272
+		{
+			dataType="Marker";
+			position[]={13783.5,23.5,18926};
+			name="VehStore7_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=458;
+			atlOffset=3.5066109;
 		};
 	};
 };
