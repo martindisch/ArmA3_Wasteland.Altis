@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=474;
+		nextID=477;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=44;
+		nextID=50;
 	};
 	class Camera
 	{
-		pos[]={3752.8523,22.125587,12978.894};
-		dir[]={0.28515095,-0.36549708,-0.88608623};
-		up[]={0.11198489,0.93078744,-0.34798405};
-		aside[]={-0.95194453,8.5367355e-007,-0.30634949};
+		pos[]={16838.631,27.459198,12646.332};
+		dir[]={0.25139278,-0.96302444,-0.097135372};
+		up[]={0.89828944,0.26945019,-0.34708872};
+		aside[]={-0.36042765,-1.0985823e-006,-0.9328143};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=277;
+		items=278;
 		class Item0
 		{
 			dataType="Group";
@@ -5905,17 +5905,6 @@ class Mission
 		};
 		class Item259
 		{
-			dataType="Marker";
-			position[]={16812.277,23.962999,12663.198};
-			name="marker_194";
-			text="GS";
-			type="mil_destroy";
-			colorName="ColorBlue";
-			id=444;
-			atlOffset=-0.0001335144;
-		};
-		class Item260
-		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
@@ -5946,7 +5935,7 @@ class Mission
 			id=449;
 			atlOffset=0.37300014;
 		};
-		class Item261
+		class Item260
 		{
 			dataType="Marker";
 			position[]={16803.5,10,11822};
@@ -5956,7 +5945,7 @@ class Mission
 			id=451;
 			atlOffset=0.96333408;
 		};
-		class Item262
+		class Item261
 		{
 			dataType="Marker";
 			position[]={16829.5,11.475,11833};
@@ -5966,7 +5955,7 @@ class Mission
 			id=452;
 			atlOffset=0.00035190582;
 		};
-		class Item263
+		class Item262
 		{
 			dataType="Marker";
 			position[]={16635,7.5,12015};
@@ -5976,7 +5965,7 @@ class Mission
 			id=454;
 			atlOffset=11.060016;
 		};
-		class Item264
+		class Item263
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6006,7 +5995,7 @@ class Mission
 			};
 			id=455;
 		};
-		class Item265
+		class Item264
 		{
 			dataType="Marker";
 			position[]={13772.5,22,18938.5};
@@ -6016,7 +6005,7 @@ class Mission
 			id=457;
 			atlOffset=1.7239952;
 		};
-		class Item266
+		class Item265
 		{
 			dataType="Marker";
 			position[]={13783.5,23.5,18926};
@@ -6026,7 +6015,7 @@ class Mission
 			id=458;
 			atlOffset=3.5066109;
 		};
-		class Item267
+		class Item266
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6056,7 +6045,7 @@ class Mission
 			};
 			id=459;
 		};
-		class Item268
+		class Item267
 		{
 			dataType="Marker";
 			position[]={14608,17.91,16759};
@@ -6065,7 +6054,7 @@ class Mission
 			colorName="ColorBlack";
 			id=461;
 		};
-		class Item269
+		class Item268
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6097,7 +6086,7 @@ class Mission
 			id=462;
 			atlOffset=0.00041007996;
 		};
-		class Item270
+		class Item269
 		{
 			dataType="Marker";
 			position[]={14042,25.615,18751};
@@ -6107,7 +6096,7 @@ class Mission
 			id=464;
 			atlOffset=0.00039482117;
 		};
-		class Item271
+		class Item270
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6139,7 +6128,7 @@ class Mission
 			id=465;
 			atlOffset=0.12098122;
 		};
-		class Item272
+		class Item271
 		{
 			dataType="Marker";
 			position[]={14027.5,26.642641,18721.5};
@@ -6148,7 +6137,7 @@ class Mission
 			colorName="ColorBlack";
 			id=467;
 		};
-		class Item273
+		class Item272
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6180,7 +6169,7 @@ class Mission
 			id=468;
 			atlOffset=0.090000153;
 		};
-		class Item274
+		class Item273
 		{
 			dataType="Marker";
 			position[]={14615,17.91,16836.5};
@@ -6189,7 +6178,7 @@ class Mission
 			colorName="ColorBlack";
 			id=470;
 		};
-		class Item275
+		class Item274
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6221,7 +6210,7 @@ class Mission
 			id=471;
 			atlOffset=0.00018692017;
 		};
-		class Item276
+		class Item275
 		{
 			dataType="Marker";
 			position[]={3747.5,18.843,12993};
@@ -6230,6 +6219,46 @@ class Mission
 			colorName="ColorBlack";
 			id=473;
 			atlOffset=0.00033569336;
+		};
+		class Item276
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16847,24.077642,12638.55};
+						angles[]={0,4.7633176,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GenStore9";
+					};
+					id=475;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=474;
+		};
+		class Item277
+		{
+			dataType="Marker";
+			position[]={16837.5,24,12645.5};
+			name="GenStore9_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=476;
 		};
 	};
 };
