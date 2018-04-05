@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=465;
+		nextID=468;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=32;
+		nextID=38;
 	};
 	class Camera
 	{
-		pos[]={14043.3,33.659142,18752.361};
-		dir[]={-0.70823586,-0.42361987,0.56481922};
-		up[]={-0.33127227,0.90579093,0.26418996};
-		aside[]={0.62352175,1.2399978e-006,0.78184688};
+		pos[]={14029.162,29.879372,18721.436};
+		dir[]={0.37572637,-0.24315466,-0.89428353};
+		up[]={0.094210029,0.96997339,-0.22423354};
+		aside[]={-0.92195356,3.8636063e-007,-0.38735321};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=274;
+		items=275;
 		class Item0
 		{
 			dataType="Group";
@@ -5917,17 +5917,6 @@ class Mission
 		class Item260
 		{
 			dataType="Marker";
-			position[]={14030.567,31.382999,18702.467};
-			name="marker_193";
-			text="GS";
-			type="mil_destroy";
-			colorName="ColorBlue";
-			id=443;
-			atlOffset=3.9220085;
-		};
-		class Item261
-		{
-			dataType="Marker";
 			position[]={16812.277,23.962999,12663.198};
 			name="marker_194";
 			text="GS";
@@ -5936,7 +5925,7 @@ class Mission
 			id=444;
 			atlOffset=-0.0001335144;
 		};
-		class Item262
+		class Item261
 		{
 			dataType="Marker";
 			position[]={3752.6609,19.003,12970.7};
@@ -5947,7 +5936,7 @@ class Mission
 			id=446;
 			atlOffset=0.00028800964;
 		};
-		class Item263
+		class Item262
 		{
 			dataType="Group";
 			side="Civilian";
@@ -5979,7 +5968,7 @@ class Mission
 			id=449;
 			atlOffset=0.37300014;
 		};
-		class Item264
+		class Item263
 		{
 			dataType="Marker";
 			position[]={16803.5,10,11822};
@@ -5989,7 +5978,7 @@ class Mission
 			id=451;
 			atlOffset=0.96333408;
 		};
-		class Item265
+		class Item264
 		{
 			dataType="Marker";
 			position[]={16829.5,11.475,11833};
@@ -5999,7 +5988,7 @@ class Mission
 			id=452;
 			atlOffset=0.00035190582;
 		};
-		class Item266
+		class Item265
 		{
 			dataType="Marker";
 			position[]={16635,7.5,12015};
@@ -6009,7 +5998,7 @@ class Mission
 			id=454;
 			atlOffset=11.060016;
 		};
-		class Item267
+		class Item266
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6039,7 +6028,7 @@ class Mission
 			};
 			id=455;
 		};
-		class Item268
+		class Item267
 		{
 			dataType="Marker";
 			position[]={13772.5,22,18938.5};
@@ -6049,7 +6038,7 @@ class Mission
 			id=457;
 			atlOffset=1.7239952;
 		};
-		class Item269
+		class Item268
 		{
 			dataType="Marker";
 			position[]={13783.5,23.5,18926};
@@ -6059,7 +6048,7 @@ class Mission
 			id=458;
 			atlOffset=3.5066109;
 		};
-		class Item270
+		class Item269
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6089,7 +6078,7 @@ class Mission
 			};
 			id=459;
 		};
-		class Item271
+		class Item270
 		{
 			dataType="Marker";
 			position[]={14608,17.91,16759};
@@ -6098,7 +6087,7 @@ class Mission
 			colorName="ColorBlack";
 			id=461;
 		};
-		class Item272
+		class Item271
 		{
 			dataType="Group";
 			side="Civilian";
@@ -6130,7 +6119,7 @@ class Mission
 			id=462;
 			atlOffset=0.00041007996;
 		};
-		class Item273
+		class Item272
 		{
 			dataType="Marker";
 			position[]={14042,25.615,18751};
@@ -6139,6 +6128,47 @@ class Mission
 			colorName="ColorBlack";
 			id=464;
 			atlOffset=0.00039482117;
+		};
+		class Item273
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14036.229,27.550785,18705.723};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GenStore6";
+					};
+					id=466;
+					type="C_man_1_1_F";
+					atlOffset=0.12098122;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=465;
+			atlOffset=0.12098122;
+		};
+		class Item274
+		{
+			dataType="Marker";
+			position[]={14027.5,26.642641,18721.5};
+			name="GenStore6_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=467;
 		};
 	};
 };
