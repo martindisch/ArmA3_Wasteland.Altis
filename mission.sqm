@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=532;
+		nextID=536;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=70;
+		nextID=72;
 	};
 	class Camera
 	{
-		pos[]={3242.4727,26.489141,12409.3};
-		dir[]={0.26187783,-0.4852629,0.83426607};
-		up[]={0.14536349,0.87431312,0.46308455};
-		aside[]={0.95412916,-3.7111022e-007,-0.2995033};
+		pos[]={3234.3577,36.000332,12442.474};
+		dir[]={0.66442692,-0.60513955,0.43858692};
+		up[]={0.50503606,0.7961151,0.33337247};
+		aside[]={0.55090183,-1.8949504e-007,-0.83457774};
 	};
 };
 binarizationWanted=0;
@@ -5550,7 +5550,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=22;
+				items=26;
 				class Item0
 				{
 					dataType="Marker";
@@ -5823,9 +5823,86 @@ class Mission
 					type="C_Truck_02_box_F";
 					atlOffset=-0.011036634;
 				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16790.408,10.074478,11845.475};
+						angles[]={0,1.5825249,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck6";
+						textures="Orange";
+					};
+					id=532;
+					type="C_Truck_02_box_F";
+					atlOffset=4.7683716e-007;
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13749.143,22.846298,18924.123};
+						angles[]={0,2.3043058,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck7";
+						textures="Orange";
+					};
+					id=533;
+					type="C_Truck_02_box_F";
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5875.873,228.87796,20113.5};
+						angles[]={0,0.65702921,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck8";
+						textures="Orange";
+					};
+					id=534;
+					type="C_Truck_02_box_F";
+					atlOffset=0.90301514;
+				};
+				class Item25
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3258.9587,9.1566448,12454.513};
+						angles[]={0,6.0299034,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck9";
+						textures="Orange";
+					};
+					id=535;
+					type="C_Truck_02_box_F";
+				};
 			};
 			id=415;
-			atlOffset=-27.037628;
+			atlOffset=21.956177;
 		};
 		class Item254
 		{
@@ -6745,7 +6822,7 @@ class Mission
 			fillName="DiagGrid";
 			a=75;
 			b=75;
-			angle=54.898224;
+			angle=54.89822;
 			id=514;
 		};
 		class Item309
