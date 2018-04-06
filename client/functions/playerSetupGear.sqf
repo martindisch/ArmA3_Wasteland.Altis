@@ -52,6 +52,8 @@ switch (true) do
 	};
 	case (["_engineer_", typeOf _player] call fn_findString != -1):
 	{
+		_player addWeapon "launch_RPG32_F";
+		_player addItem "RPG32_F";
 		_player addItem "MineDetector";
 		_player addItem "Toolkit";
 	};
