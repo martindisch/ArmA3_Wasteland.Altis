@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=1091;
+		nextID=1102;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=84;
 	};
 	class Camera
 	{
-		pos[]={17622.068,275.6236,17508.16};
-		dir[]={-0.17194448,-0.70568228,-0.68753642};
-		up[]={-0.17122319,0.70846683,-0.68461645};
-		aside[]={-0.97003251,6.0626408e-006,0.2426149};
+		pos[]={17348.77,129.15881,17171.467};
+		dir[]={0.23569201,-0.41842002,0.87728846};
+		up[]={0.10859747,0.90817469,0.40418786};
+		aside[]={0.9656629,-1.577595e-006,-0.25945723};
 	};
 };
 binarizationWanted=0;
@@ -167,7 +167,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=737;
+		items=744;
 		class Item0
 		{
 			dataType="Group";
@@ -4713,7 +4713,7 @@ class Mission
 			fillName="DiagGrid";
 			a=60;
 			b=50;
-			angle=113.5708;
+			angle=113.57079;
 			id=349;
 		};
 		class Item190
@@ -5584,7 +5584,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=26;
+				items=27;
 				class Item0
 				{
 					dataType="Marker";
@@ -5935,9 +5935,28 @@ class Mission
 					type="C_Truck_02_box_F";
 					atlOffset=-4.7683716e-007;
 				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17381.006,76.831024,17241.994};
+						angles[]={0,2.0905902,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck10";
+						textures="Orange";
+					};
+					id=1091;
+					type="C_Truck_02_box_F";
+				};
 			};
 			id=415;
-			atlOffset=21.957943;
+			atlOffset=31.845558;
 		};
 		class Item254
 		{
@@ -6618,7 +6637,7 @@ class Mission
 			fillName="DiagGrid";
 			a=50;
 			b=110;
-			angle=106.46196;
+			angle=106.46195;
 			id=497;
 			atlOffset=-14.677291;
 		};
@@ -17521,6 +17540,139 @@ class Mission
 			};
 			id=903;
 			type="CamoNet_BLUFOR_big_F";
+		};
+		class Item737
+		{
+			dataType="Marker";
+			position[]={17379.824,80.618935,17264.994};
+			name="VehStore10_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=1092;
+			atlOffset=5.0686722;
+		};
+		class Item738
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17372.324,76.821167,17250.045};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore10";
+					};
+					id=1094;
+					type="C_man_1_1_F";
+					atlOffset=0.94104767;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1093;
+			atlOffset=0.94104767;
+		};
+		class Item739
+		{
+			dataType="Marker";
+			position[]={17410.824,83.118935,17247.494};
+			name="VehStore10_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=1095;
+			atlOffset=6.2775726;
+		};
+		class Item740
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17351.5,75.673065,17270.051};
+						angles[]={0,4.7633176,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GenStore10";
+					};
+					id=1097;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1096;
+		};
+		class Item741
+		{
+			dataType="Marker";
+			position[]={17368.324,76.654938,17296.494};
+			name="GenStore10_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=1098;
+			atlOffset=1.0943146;
+		};
+		class Item742
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17355,75.670105,17274.051};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GunStore7";
+					};
+					id=1100;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1099;
+		};
+		class Item743
+		{
+			dataType="Marker";
+			position[]={17358.824,76.613937,17281.994};
+			name="GunStore7_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=1101;
+			atlOffset=1.1090546;
 		};
 	};
 };
