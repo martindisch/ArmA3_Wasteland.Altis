@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=72;
+		nextID=78;
 	};
 	class Camera
 	{
@@ -108,14 +108,14 @@ class AddonsMetaData
 randomSeed=3783014;
 class ScenarioData
 {
-	author="AgentRev";
+	author="Team Will of Fire and A3Wasteland.com";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Altis v1.4b";
-		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
+		briefingName="HNI A3Wasteland Altis v1.4b";
+		overviewText="Wasteland survival sandbox by Team Will of Fire and A3Wasteland.com";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
@@ -5841,7 +5841,6 @@ class Mission
 					};
 					id=532;
 					type="C_Truck_02_box_F";
-					atlOffset=4.7683716e-007;
 				};
 				class Item23
 				{
@@ -5861,6 +5860,7 @@ class Mission
 					};
 					id=533;
 					type="C_Truck_02_box_F";
+					atlOffset=-0.017831802;
 				};
 				class Item24
 				{
@@ -5879,7 +5879,7 @@ class Mission
 					};
 					id=534;
 					type="C_Truck_02_box_F";
-					atlOffset=0.90301514;
+					atlOffset=0.88046265;
 				};
 				class Item25
 				{
@@ -5899,10 +5899,11 @@ class Mission
 					};
 					id=535;
 					type="C_Truck_02_box_F";
+					atlOffset=-4.7683716e-007;
 				};
 			};
 			id=415;
-			atlOffset=21.956177;
+			atlOffset=21.957943;
 		};
 		class Item254
 		{
@@ -6822,7 +6823,7 @@ class Mission
 			fillName="DiagGrid";
 			a=75;
 			b=75;
-			angle=54.89822;
+			angle=54.898209;
 			id=514;
 		};
 		class Item309
