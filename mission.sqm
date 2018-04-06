@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=959;
+		nextID=964;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=80;
+		nextID=82;
 	};
 	class Camera
 	{
-		pos[]={17470.938,204.15146,17482.504};
-		dir[]={0.025819059,-0.67047894,-0.74164617};
-		up[]={0.023328049,0.74189276,-0.67008275};
-		aside[]={-0.99934304,6.0551338e-007,-0.034788497};
+		pos[]={17411.141,109.0064,17271.035};
+		dir[]={-0.71667302,-0.65695339,-0.2342075};
+		up[]={-0.62449622,0.75389218,-0.20408429};
+		aside[]={-0.31063989,4.4121043e-007,0.95055467};
 	};
 };
 binarizationWanted=0;
@@ -167,7 +167,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=635;
+		items=638;
 		class Item0
 		{
 			dataType="Group";
@@ -4713,7 +4713,7 @@ class Mission
 			fillName="DiagGrid";
 			a=60;
 			b=50;
-			angle=113.57081;
+			angle=113.5708;
 			id=349;
 		};
 		class Item190
@@ -5584,7 +5584,7 @@ class Mission
 			name="VanillaLayer";
 			class Entities
 			{
-				items=26;
+				items=27;
 				class Item0
 				{
 					dataType="Marker";
@@ -5935,9 +5935,28 @@ class Mission
 					type="C_Truck_02_box_F";
 					atlOffset=-4.7683716e-007;
 				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17378.486,76.817612,17243.51};
+						angles[]={0,2.0905902,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						init="[this, true] call A3W_fnc_setupResupplyTruck";
+						name="ResupplyTruck10";
+						textures="Orange";
+					};
+					id=959;
+					type="C_Truck_02_box_F";
+				};
 			};
 			id=415;
-			atlOffset=21.957943;
+			atlOffset=31.671432;
 		};
 		class Item254
 		{
@@ -6618,7 +6637,7 @@ class Mission
 			fillName="DiagGrid";
 			a=50;
 			b=110;
-			angle=106.46197;
+			angle=106.46196;
 			id=497;
 			atlOffset=-14.677291;
 		};
@@ -11200,7 +11219,7 @@ class Mission
 			};
 			id=869;
 			type="Land_BloodBag_F";
-			atlOffset=2.3536682;
+			atlOffset=2.3538666;
 		};
 		class Item575
 		{
@@ -11283,7 +11302,7 @@ class Mission
 			};
 			id=881;
 			type="Land_ToiletBox_F";
-			atlOffset=0.085914612;
+			atlOffset=0.085769653;
 		};
 		class Item580
 		{
@@ -12016,12 +12035,13 @@ class Mission
 				angles[]={0,0.077183284,0};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 			};
 			id=938;
 			type="Land_Cargo_Patrol_V1_F";
+			atlOffset=5.2129135;
 		};
 		class Item625
 		{
@@ -12188,6 +12208,56 @@ class Mission
 			id=958;
 			type="Land_Cargo_House_V1_F";
 			atlOffset=1.29599;
+		};
+		class Item635
+		{
+			dataType="Marker";
+			position[]={17377.5,79.5,17266.5};
+			name="VehStore10_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=960;
+			atlOffset=3.9060059;
+		};
+		class Item636
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17370,75.702232,17251.551};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore10";
+					};
+					id=962;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=961;
+		};
+		class Item637
+		{
+			dataType="Marker";
+			position[]={17408.5,82,17249};
+			name="VehStore10_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=963;
+			atlOffset=5.2365417;
 		};
 	};
 };
