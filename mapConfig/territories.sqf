@@ -52,5 +52,7 @@
 	["TERRITORY_SOFIA_3", "Sofia East", 500, "SOFIA"],
 	["TERRITORY_SOFIA_MILITARY", "Sofia Military", 500, "SOFIA"],
 	["TERRITORY_SELAKANO_CITY", "Selakano", 500, "SELAKANO"],
-	["TERRITORY_AGIA_TRIADA", "Agia Triada", 500, "TRIADA"]
+	["TERRITORY_AGIA_TRIADA", "Agia Triada", 500, "TRIADA"],
+	["TERRITORY_HIDDEN_LEAVES_1", "Camp Hidden Leaves West", 750, "HIDDEN"],
+	["TERRITORY_HIDDEN_LEAVES_2", "Camp Hidden Leaves East", 750, "HIDDEN"]
 ]
