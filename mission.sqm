@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=964;
+		nextID=967;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=86;
 	};
 	class Camera
 	{
-		pos[]={17411.141,109.0064,17271.035};
-		dir[]={-0.71667302,-0.65695339,-0.2342075};
-		up[]={-0.62449622,0.75389218,-0.20408429};
-		aside[]={-0.31063989,4.4121043e-007,0.95055467};
+		pos[]={17440.111,123.06931,17245.504};
+		dir[]={-0.69875824,-0.54288876,0.46593866};
+		up[]={-0.45181933,0.83969355,0.30127656};
+		aside[]={0.55480641,1.3334648e-007,0.83203143};
 	};
 };
 binarizationWanted=0;
@@ -167,7 +167,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=638;
+		items=640;
 		class Item0
 		{
 			dataType="Group";
@@ -4713,7 +4713,7 @@ class Mission
 			fillName="DiagGrid";
 			a=60;
 			b=50;
-			angle=113.5708;
+			angle=113.57079;
 			id=349;
 		};
 		class Item190
@@ -5953,10 +5953,11 @@ class Mission
 					};
 					id=959;
 					type="C_Truck_02_box_F";
+					atlOffset=-0.00045776367;
 				};
 			};
 			id=415;
-			atlOffset=31.671432;
+			atlOffset=31.671886;
 		};
 		class Item254
 		{
@@ -6637,7 +6638,7 @@ class Mission
 			fillName="DiagGrid";
 			a=50;
 			b=110;
-			angle=106.46196;
+			angle=106.46194;
 			id=497;
 			atlOffset=-14.677291;
 		};
@@ -12258,6 +12259,46 @@ class Mission
 			colorName="ColorBlack";
 			id=963;
 			atlOffset=5.2365417;
+		};
+		class Item638
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={17349,75.675179,17271.551};
+						angles[]={0,4.7633176,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GenStore10";
+					};
+					id=965;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=964;
+		};
+		class Item639
+		{
+			dataType="Marker";
+			position[]={17366,75.536003,17298};
+			name="GenStore10_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=966;
 		};
 	};
 };
