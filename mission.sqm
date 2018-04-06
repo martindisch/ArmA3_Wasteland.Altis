@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=523;
+		nextID=527;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=60;
+		nextID=64;
 	};
 	class Camera
 	{
-		pos[]={16707.027,49.358395,20527.758};
-		dir[]={0.11591957,-0.5018996,-0.85712981};
-		up[]={0.067266122,0.86492437,-0.49737525};
-		aside[]={-0.99098539,-2.0130028e-007,-0.13402256};
+		pos[]={5862.5503,229.51108,20120.541};
+		dir[]={-0.0026918254,-0.99994999,-0.0096306633};
+		up[]={-0.26917499,0.00999978,-0.96303934};
+		aside[]={-0.9630875,0,0.26918846};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=319;
+		items=322;
 		class Item0
 		{
 			dataType="Group";
@@ -4061,7 +4061,7 @@ class Mission
 			name="milSpawn_7";
 			type="Empty";
 			colorName="ColorKhaki";
-			angle=128.13251;
+			angle=128.13248;
 			id=289;
 		};
 		class Item131
@@ -6627,7 +6627,7 @@ class Mission
 			b=50;
 			angle=325.3624;
 			id=506;
-			atlOffset=27.831551;
+			atlOffset=27.248093;
 		};
 		class Item301
 		{
@@ -6745,7 +6745,7 @@ class Mission
 			fillName="DiagGrid";
 			a=75;
 			b=75;
-			angle=54.898243;
+			angle=54.898235;
 			id=514;
 		};
 		class Item309
@@ -6905,6 +6905,58 @@ class Mission
 			colorName="ColorBlack";
 			id=382;
 			atlOffset=2.9088817;
+		};
+		class Item319
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5858,226.0013,20101.051};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore8";
+					};
+					id=524;
+					type="C_man_1_1_F";
+					atlOffset=-0.04800415;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=523;
+			atlOffset=-0.04800415;
+		};
+		class Item320
+		{
+			dataType="Marker";
+			position[]={5862.5,227.5,20120.5};
+			name="VehStore8_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=525;
+			atlOffset=2.8220215;
+		};
+		class Item321
+		{
+			dataType="Marker";
+			position[]={5872.5,229,20145.5};
+			name="VehStore8_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=526;
+			atlOffset=4.8668823;
 		};
 	};
 };
