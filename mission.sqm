@@ -8,7 +8,7 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=527;
+		nextID=532;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=64;
+		nextID=70;
 	};
 	class Camera
 	{
-		pos[]={5862.5503,229.51108,20120.541};
-		dir[]={-0.0026918254,-0.99994999,-0.0096306633};
-		up[]={-0.26917499,0.00999978,-0.96303934};
-		aside[]={-0.9630875,0,0.26918846};
+		pos[]={3242.4727,26.489141,12409.3};
+		dir[]={0.26187783,-0.4852629,0.83426607};
+		up[]={0.14536349,0.87431312,0.46308455};
+		aside[]={0.95412916,-3.7111022e-007,-0.2995033};
 	};
 };
 binarizationWanted=0;
@@ -133,7 +133,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=322;
+		items=326;
 		class Item0
 		{
 			dataType="Group";
@@ -6745,7 +6745,7 @@ class Mission
 			fillName="DiagGrid";
 			a=75;
 			b=75;
-			angle=54.898235;
+			angle=54.898224;
 			id=514;
 		};
 		class Item309
@@ -6957,6 +6957,68 @@ class Mission
 			colorName="ColorBlack";
 			id=526;
 			atlOffset=4.8668823;
+		};
+		class Item322
+		{
+			dataType="Marker";
+			position[]={3243,10.5,12439};
+			name="VehStore9_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=527;
+			atlOffset=3.7366858;
+		};
+		class Item323
+		{
+			dataType="Marker";
+			position[]={3129,7,12588};
+			name="VehStore9_seaSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=528;
+			atlOffset=13.510309;
+		};
+		class Item324
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3255.5,11.001771,12439.05};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="VehStore9";
+					};
+					id=530;
+					type="C_man_1_1_F";
+					atlOffset=3.9737334;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=529;
+			atlOffset=3.9737334;
+		};
+		class Item325
+		{
+			dataType="Marker";
+			position[]={3240,13,12461.5};
+			name="VehStore9_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=531;
+			atlOffset=6.8793931;
 		};
 	};
 };
