@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=86;
+		nextID=88;
 	};
 	class Camera
 	{
-		pos[]={17348.77,129.15881,17171.467};
-		dir[]={0.23569201,-0.41842002,0.87728846};
-		up[]={0.10859747,0.90817469,0.40418786};
-		aside[]={0.9656629,-1.577595e-006,-0.25945723};
+		pos[]={17423.443,110.1567,17323.346};
+		dir[]={-0.62618983,-0.41024682,-0.66320544};
+		up[]={-0.2817263,0.91189677,-0.29836756};
+		aside[]={-0.72702682,-2.8899376e-006,0.68648273};
 	};
 };
 binarizationWanted=0;
@@ -6637,7 +6637,7 @@ class Mission
 			fillName="DiagGrid";
 			a=50;
 			b=110;
-			angle=106.46194;
+			angle=106.46193;
 			id=497;
 			atlOffset=-14.677291;
 		};
@@ -11021,17 +11021,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={17398.5,81.709679,17332};
+				position[]={17398.5,81.264679,17332};
 				angles[]={0,5.6723552,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 			};
 			id=819;
 			type="Land_BagBunker_Tower_F";
-			atlOffset=0.44499969;
 			class CustomAttributes
 			{
 				class Attribute0
