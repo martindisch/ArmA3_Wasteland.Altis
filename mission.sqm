@@ -148,7 +148,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="HNI A3Wasteland Altis v1.4b";
+		briefingName="HNI A3Wasteland Altis v1.4c";
 		overviewText="Wasteland survival sandbox by Team Will of Fire and A3Wasteland.com";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
